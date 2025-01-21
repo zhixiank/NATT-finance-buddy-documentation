@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <!-- dark theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css" />
+
+  <style>
+    .sidebar a:hover {
+      color: #f4da40;
+    }
+
+    .cover {
+      background-color: #000000; /* Set background color for cover page */
+      color: #ecf0f1; /* Set text color for cover page */
+      text-align: center; /* Center the text */
+      padding: 50px; /* Add padding for spacing */
+    }
+
+    /* Customize the cover page title */
+    .cover h1 {
+      color: #000000; /* Change title color */
+      font-size: 3em; /* Adjust font size */
+      font-weight: bold; /* Make the title bold */
+      margin-bottom: 20px; /* Add some space below the title */
+    }
+
+    /* Customize the cover page description */
+    .cover p {
+      font-size: 1.2em; /* Adjust font size for description */
+      margin-top: 20px; /* Add space above the paragraph */
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      loadSidebar: true,
+      coverpage: true,     <!-- enable coverpage -->
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md'
+      },
+
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <!-- Latest v2.x.x -->
+  <script src="https://unpkg.com/docsify-copy-code@2"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+
+</body>
+
+</html>

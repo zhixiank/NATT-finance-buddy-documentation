@@ -1,6 +1,6 @@
 # Django Setup 
 
-In order to setup django framework, it is recommended to use in virtual environment.
+In order to setup django framework , it is recommended to use in virtual environment.
 
 ## Anaconda 
 
